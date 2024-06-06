@@ -75,7 +75,7 @@
         background-color: #246398;
     }
     .about{
-        background-color: #F5B365;
+        
         width: 100%;
         padding: 1rem;
         display: flex;
@@ -97,7 +97,6 @@
         align-items: center;
         justify-content: space-around;
         background-color: black;
-        
     }
     .social > ul{
         display: flex;
