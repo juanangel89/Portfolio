@@ -10,7 +10,7 @@ function sendEmail(event){
     emailjs.init(serviceId)
 
     emailjs.sendForm(serviceId,templateId,frmEmail,apiKey)
-    .then( (reuslt) => Swal.fire("su mensaje se ha enviado con exito."))
+    .then( (reuslt) => Swal.fire("The message was sent successfully."))
     .catch(error => {
         Swal.fire({
             icon: "error",
