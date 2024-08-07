@@ -214,21 +214,22 @@ textarea{
   header {
     background-color: #081F32;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 1rem;
   }
   .brand {
     display: flex;
+    justify-content: center;
     padding: 1rem;
   }
   .brand > img {
     width: 50%;
   }
   .nav {
-    width: 400%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
   }
   .nav > ul {
     width: 100%;
@@ -237,10 +238,12 @@ textarea{
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   i {
     color: white;
     font-size: 50px;
+    width: 7rem;
   }
   .nav > ul > i > a {
     text-decoration: none;
@@ -248,6 +251,7 @@ textarea{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 20px;
+
   }
   .intro {
     display: flex;
