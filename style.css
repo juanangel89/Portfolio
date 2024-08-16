@@ -39,6 +39,7 @@
   i {
     color: white;
     font-size: 50px;
+    width: 7rem;
   }
   .nav > ul > i > a {
     text-decoration: none;
